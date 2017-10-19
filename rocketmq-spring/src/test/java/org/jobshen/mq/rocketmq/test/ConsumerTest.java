@@ -34,6 +34,7 @@ public class ConsumerTest {
 //		ApplicationContext context = new ClassPathXmlApplicationContext("rocketmq-redis-consumer.xml");
 //		ApplicationContext context = new ClassPathXmlApplicationContext("rocketmq-consumer.xml");
 //		System.out.println("Consumer Started");
+
 	    Map<String, String> a = Maps.newHashMap();
         a.put("A", "AA");
         a.put("B", "BB");

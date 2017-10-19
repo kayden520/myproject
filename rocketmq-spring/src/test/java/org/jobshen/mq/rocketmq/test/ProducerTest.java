@@ -47,7 +47,7 @@ public class ProducerTest {
 			Message msg = testMessage.getInstance("message--" + i + "--tests");
 			SendResult result = producer.send(msg);
 			log.info("message--{} : result : {}", i, JSONObject.toJSONString(result));
-//            System.out.println("message--"+i+" : result : "+ JSONObject.toJSONString(result));
+            //System.out.println("message--"+i+" : result : "+ JSONObject.toJSONString(result));
 		}
 	}
 }
